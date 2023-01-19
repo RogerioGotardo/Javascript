@@ -21,11 +21,16 @@
     <h1>Olá mundo!</h1> <!--Isso um comentário em html-->
     <p>Já me livrei do Chiken-Gun!!</p> 
     <script>
-        window.alert('Minha primeira mensagem') // comentario de linha
-        window.confirm('Está gostando de JS?')
+        var n1 = Number.parsefloat(window.prompt('Digite um número: ')) // string
+        var n2 = Number.parsefloat(window.prompt('Digite outro número ')) // string
+        var s = n1 +n2
+        window.alert('A soma dos valores é ' + s) // Concatenação
+        // (number + number) para adição
+        // (string + string) para  concatenação
+        
+        // comentario de linha    
         /*comentário de linha colulas*/
-        var nome = window.prompt('Qual é seu nome')
-        window.alert ('É um grande prazer em te conhecer,  ' + nome + '!') // + sinal de concatenação
+        // + sinal de concatenação
     </script>
     
 </body>
