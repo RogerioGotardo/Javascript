@@ -3,7 +3,7 @@ function verificar() {
    var ano = data.getFullYear()
    var fano = document.getElementById('txtano')
    var res = document.querySelector('div#res')
-   if (fano.Value.length == 0 || Number(fano.value) > ano) {
+   if (fano.value.length == 0 || Number(fano.value) > ano) {
        window.alert('[ERRO] Verifique os dados e tente novamente!')
    } else {
         var fsex = document.getElementsByName('radsex')
@@ -43,7 +43,7 @@ function verificar() {
                 img.setAttribute('src', 'idosomulher.png')            
             }
         }
-        res.getElementsByClassName.textAlingn = 'center'
+        res.style.textAlign = 'center'
         res.innerHTML = `Detectamos ${gênero} com ${idade} anos`
         res.appendChild(img)    
     }
