@@ -4,5 +4,5 @@ num.sort()
 
 console.log(`O vetor tem ${num.length} posições`)
 cosole.log(`O primeiro valor do vetor é $(num){[0]}` {
-
+console.log()
 }
